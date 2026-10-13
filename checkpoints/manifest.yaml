@@ -1,0 +1,116 @@
+version: 1
+base_url_note: "Pass https://huggingface.co/datasets/Mengyu8042/bridge-twist-checkpoints/resolve/main with scripts/download_checkpoints.py --base-url <URL>."
+assets:
+  - id: mnist_sb
+    group: required
+    dataset: mnist
+    role: bridge_twist_sb_checkpoint
+    path: checkpoints/mnist_ckpt.pt
+    relative_url: checkpoints/mnist_ckpt.pt
+    size_bytes: 471862807
+    license: MIT
+    provenance: "Authors' pretrained BridgeTwist SB checkpoint."
+  - id: cifar10_sb
+    group: required
+    dataset: cifar10
+    role: bridge_twist_sb_checkpoint
+    path: checkpoints/cifar10_ckpt.pt
+    relative_url: checkpoints/cifar10_ckpt.pt
+    size_bytes: 989852709
+    license: MIT
+    provenance: "Authors' pretrained BridgeTwist SB checkpoint."
+  - id: mnist_likelihood_classifier
+    group: required
+    dataset: mnist
+    role: guidance_classifier
+    path: checkpoints/classifier_mnist.pth.tar
+    relative_url: checkpoints/classifier_mnist.pth.tar
+    size_bytes: 188537249
+    license: MIT
+    provenance: "Downloaded unmodified from the VSehwag/minimal-diffusion released assets; used as p(y|x) for MNIST class-conditional likelihoods."
+  - id: cifar10_likelihood_classifier
+    group: required
+    dataset: cifar10
+    role: guidance_classifier
+    path: checkpoints/classifier_cifar10.pth.tar
+    relative_url: checkpoints/classifier_cifar10.pth.tar
+    size_bytes: 188546465
+    license: MIT
+    provenance: "Downloaded unmodified from the VSehwag/minimal-diffusion released assets; used as p(y|x) for CIFAR-10 class-conditional likelihoods."
+  - id: celebahq_sb
+    group: required
+    dataset: celebahq
+    role: bridge_twist_sb_checkpoint
+    path: checkpoints/celebahq_ckpt.pt
+    relative_url: checkpoints/celebahq_ckpt.pt
+    size_bytes: 1982798141
+    sigma: 0.25
+    image_shape: [3, 256, 256]
+    training_step: 20000
+    license: MIT
+    provenance: "Authors' pretrained BridgeTwist SB checkpoint."
+  - id: celebahq_clip
+    group: required
+    dataset: celebahq
+    role: text_likelihood_and_clip_l_evaluation
+    path: checkpoints/open_clip_pytorch_model.bin
+    relative_url: checkpoints/open_clip_pytorch_model.bin
+    size_bytes: 4802571739
+    license: MIT
+    source_url: https://huggingface.co/laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-soup
+    source_revision: 9f3e8ee3f383c672388d9178afe70af9e63ac9df
+    provenance: "Unmodified OpenCLIP ConvNeXt-XXLarge LAION-2B augreg-soup weights. License notice: licenses/open_clip_LICENSE.txt."
+  - id: cifar10_densenet_external
+    group: external
+    dataset: cifar10
+    role: external_evaluation_classifier
+    path: checkpoints/external/cifar10_densenet_repo/cifar10_models/densenet121.pt
+    relative_url: checkpoints/external/cifar10_densenet_repo/cifar10_models/densenet121.pt
+    size_bytes: 28435902
+    license: MIT
+    provenance: "huyvnphan/PyTorch_CIFAR10 DenseNet-121 pretrained checkpoint."
+  - id: mnist_external_vgg16
+    group: external
+    dataset: mnist
+    role: external_evaluation_classifier
+    path: checkpoints/external/mnist_super_learner_repo/models/VGG16.h5
+    relative_url: checkpoints/external/mnist_super_learner_repo/models/VGG16.h5
+    size_bytes: 119579888
+    license: "No explicit upstream license found."
+    provenance: "Curt-Park/handwritten_digit_recognition VGG16 component."
+  - id: mnist_external_resnet164
+    group: external
+    dataset: mnist
+    role: external_evaluation_classifier
+    path: checkpoints/external/mnist_super_learner_repo/models/ResNet164.h5
+    relative_url: checkpoints/external/mnist_super_learner_repo/models/ResNet164.h5
+    size_bytes: 15629392
+    license: "No explicit upstream license found."
+    provenance: "Curt-Park/handwritten_digit_recognition ResNet164 component."
+  - id: mnist_external_wrn
+    group: external
+    dataset: mnist
+    role: external_evaluation_classifier
+    path: checkpoints/external/mnist_super_learner_repo/models/WideResNet28_10.h5
+    relative_url: checkpoints/external/mnist_super_learner_repo/models/WideResNet28_10.h5
+    size_bytes: 292318808
+    license: "No explicit upstream license found."
+    provenance: "Curt-Park/handwritten_digit_recognition WideResNet28-10 component."
+  - id: mnist_external_mobilenet
+    group: external
+    dataset: mnist
+    role: external_evaluation_classifier
+    path: checkpoints/external/mnist_super_learner_repo/models/MobileNet.h5
+    relative_url: checkpoints/external/mnist_super_learner_repo/models/MobileNet.h5
+    size_bytes: 26213656
+    license: "No explicit upstream license found."
+    provenance: "Curt-Park/handwritten_digit_recognition MobileNet component."
+  - id: mnist_external_super_learner
+    group: external
+    dataset: mnist
+    role: external_evaluation_classifier
+    path: checkpoints/external/mnist_super_learner_repo/models/SuperLearner.h5
+    relative_url: checkpoints/external/mnist_super_learner_repo/models/SuperLearner.h5
+    size_bytes: 18128
+    license: "No explicit upstream license found."
+    provenance: "Curt-Park/handwritten_digit_recognition Super Learner meta-classifier."

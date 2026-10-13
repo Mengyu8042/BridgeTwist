@@ -1,0 +1,539 @@
+[
+    {
+        "attribute": "Female",
+        "positive_text": [
+            "a photo of a woman"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a masculine person",
+            "a photo of a male individual",
+            "a photo of a gentleman"
+        ]
+    },
+    {
+        "attribute": "Male",
+        "positive_text": [
+            "a photo of a man"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a feminine person",
+            "a photo of a female individual",
+            "a photo of a lady"
+        ]
+    },
+    {
+        "attribute": "Smiling",
+        "positive_text": [
+            "a photo of a smiling person"
+        ],
+        "negative_texts": [
+            "a photo of a person with a serious expression",
+            "a photo of a person with a neutral face",
+            "a photo of a stern person",
+            "a photo of a frowning person",
+            "a photo of a person with a somber expression"
+        ]
+    },
+    {
+        "attribute": "Not Smiling",
+        "positive_text": [
+            "a photo of a person with a serious expression"
+        ],
+        "negative_texts": [
+            "a photo of a smiling person",
+            "a photo of a person with a happy expression",
+            "a photo of a grinning person",
+            "a photo of a cheerful person",
+            "a photo of a person with a joyful face"
+        ]
+    },
+    {
+        "attribute": "Wavy Hair",
+        "positive_text": [
+            "a photo of a person with wavy hair"
+        ],
+        "negative_texts": [
+            "a photo of a person with straight hair",
+            "a photo of a person with tightly curled hair",
+            "a photo of a person with sleek hair",
+            "a photo of a person with pin-straight hair",
+            "a photo of a person with kinky curls"
+        ]
+    },
+    {
+        "attribute": "Straight Hair",
+        "positive_text": [
+            "a photo of a person with straight hair"
+        ],
+        "negative_texts": [
+            "a photo of a person with wavy hair",
+            "a photo of a person with curly hair",
+            "a photo of a person with textured hair",
+            "a photo of a person with flowing waves",
+            "a photo of a person with spiral curls"
+        ]
+    },
+    {
+        "attribute": "Bald",
+        "positive_text": [
+            "a photo of a bald person"
+        ],
+        "negative_texts": [
+            "a photo of a person with a full head of hair",
+            "a photo of a person with thick hair",
+            "a photo of a person with long hair",
+            "a photo of a person with visible hair",
+            "a photo of a person with abundant hair"
+        ]
+    },
+    {
+        "attribute": "Haired",
+        "positive_text": [
+            "a photo of a person with hair"
+        ],
+        "negative_texts": [
+            "a photo of a bald person",
+            "a photo of a person with a shaved head",
+            "a photo of a hairless person",
+            "a photo of a person with no visible hair"
+        ]
+    },
+    {
+        "attribute": "Bangs",
+        "positive_text": [
+            "a photo of a person with bangs"
+        ],
+        "negative_texts": [
+            "a photo of a person with hair swept back",
+            "a photo of a person with an exposed forehead",
+            "a photo of a person with a clear forehead",
+            "a photo of a person with slicked-back hair",
+            "a photo of a person with hair parted to the side"
+        ]
+    },
+    {
+        "attribute": "No Bang",
+        "positive_text": [
+            "a photo of a person with an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a person with bangs",
+            "a photo of a person with fringe",
+            "a photo of a person with hair covering the forehead",
+            "a photo of a person with front hair falling over the forehead",
+            "a photo of a person with a covered forehead"
+        ]
+    },
+    {
+        "attribute": "Black Hair",
+        "positive_text": [
+            "a photo of a person with black hair"
+        ],
+        "negative_texts": [
+            "a photo of a person with blonde hair",
+            "a photo of a person with brown hair",
+            "a photo of a person with red hair",
+            "a photo of a person with gray hair",
+            "a photo of a person with light-colored hair"
+        ]
+    },
+    {
+        "attribute": "Blonde Hair",
+        "positive_text": [
+            "a photo of a person with blonde hair"
+        ],
+        "negative_texts": [
+            "a photo of a person with black hair",
+            "a photo of a person with brown hair",
+            "a photo of a person with red hair",
+            "a photo of a person with dark hair",
+            "a photo of a person with brunette hair"
+        ]
+    },
+    {
+        "attribute": "Female + Smiling",
+        "positive_text": [
+            "a photo of a smiling woman"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with a serious expression",
+            "a photo of a smiling man",
+            "a photo of a woman with a neutral face",
+            "a photo of a stern woman"
+        ]
+    },
+    {
+        "attribute": "Female + Not Smiling",
+        "positive_text": [
+            "a photo of a woman with a serious expression"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a smiling woman",
+            "a photo of a serious man",
+            "a photo of a woman with a happy expression",
+            "a photo of a cheerful woman"
+        ]
+    },
+    {
+        "attribute": "Female + Bangs",
+        "positive_text": [
+            "a photo of a woman with bangs"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with an exposed forehead",
+            "a photo of a man with bangs",
+            "a photo of a woman with slicked-back hair",
+            "a photo of a woman with hair swept back"
+        ]
+    },
+    {
+        "attribute": "Female + No Bang",
+        "positive_text": [
+            "a photo of a woman with an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with bangs",
+            "a photo of a man with an exposed forehead",
+            "a photo of a woman with fringe",
+            "a photo of a woman with a covered forehead"
+        ]
+    },
+    {
+        "attribute": "Female + Blonde_Hair",
+        "positive_text": [
+            "a photo of a woman with blonde hair"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with black hair",
+            "a photo of a man with blonde hair",
+            "a photo of a woman with brown hair",
+            "a photo of a woman with dark hair"
+        ]
+    },
+    {
+        "attribute": "Female + Black_Hair",
+        "positive_text": [
+            "a photo of a woman with black hair"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with blonde hair",
+            "a photo of a man with black hair",
+            "a photo of a woman with brown hair",
+            "a photo of a woman with light-colored hair"
+        ]
+    },
+    {
+        "attribute": "Male + Smiling",
+        "positive_text": [
+            "a photo of a smiling man"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with a serious expression",
+            "a photo of a smiling woman",
+            "a photo of a man with a neutral face",
+            "a photo of a stern man"
+        ]
+    },
+    {
+        "attribute": "Male + Not Smiling",
+        "positive_text": [
+            "a photo of a man with a serious expression"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a smiling man",
+            "a photo of a serious woman",
+            "a photo of a man with a happy expression",
+            "a photo of a cheerful man"
+        ]
+    },
+    {
+        "attribute": "Female + Smiling + Bangs",
+        "positive_text": [
+            "a photo of a smiling woman with bangs"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with hair swept back",
+            "a photo of a serious person",
+            "a photo of a serious woman with bangs",
+            "a photo of a smiling woman with an exposed forehead",
+            "a photo of a woman with a clear forehead and neutral expression"
+        ]
+    },
+    {
+        "attribute": "Female + Smiling + Blonde Hair",
+        "positive_text": [
+            "a photo of a smiling woman with blonde hair"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with black hair",
+            "a photo of a serious person",
+            "a photo of a serious woman with blonde hair",
+            "a photo of a smiling woman with dark hair",
+            "a photo of a woman with blonde hair and neutral expression"
+        ]
+    },
+    {
+        "attribute": "Female + Not Smiling + Blonde_Hair",
+        "positive_text": [
+            "a photo of a woman with blonde hair and a serious expression"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with black hair",
+            "a photo of a smiling person",
+            "a photo of a smiling woman with blonde hair",
+            "a photo of a serious woman with dark hair",
+            "a photo of a woman with blonde hair and a happy expression"
+        ]
+    },
+    {
+        "attribute": "Female + Bangs + Blonde_Hair",
+        "positive_text": [
+            "a photo of a woman with blonde hair and bangs"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with black hair",
+            "a photo of a woman with an exposed forehead",
+            "a photo of a woman with blonde hair and slicked-back hair",
+            "a photo of a woman with dark hair and bangs",
+            "a photo of a woman with blonde hair swept back"
+        ]
+    },
+    {
+        "attribute": "Female + Not Smiling + Bangs",
+        "positive_text": [
+            "a photo of a woman with bangs and a serious expression"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with an exposed forehead",
+            "a photo of a smiling person",
+            "a photo of a smiling woman with bangs",
+            "a photo of a serious woman with slicked-back hair",
+            "a photo of a woman with bangs and a happy expression"
+        ]
+    },
+    {
+        "attribute": "Female + Smiling + Black_Hair",
+        "positive_text": [
+            "a photo of a smiling woman with black hair"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with blonde hair",
+            "a photo of a serious person",
+            "a photo of a serious woman with black hair",
+            "a photo of a smiling woman with light-colored hair",
+            "a photo of a woman with black hair and neutral expression"
+        ]
+    },
+    {
+        "attribute": "Male + Smiling + Black_Hair",
+        "positive_text": [
+            "a photo of a smiling man with black hair"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with blonde hair",
+            "a photo of a serious person",
+            "a photo of a serious man with black hair",
+            "a photo of a smiling man with light-colored hair",
+            "a photo of a man with black hair and neutral expression"
+        ]
+    },
+    {
+        "attribute": "Female + Black_Hair + No Bang",
+        "positive_text": [
+            "a photo of a woman with black hair and an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with blonde hair",
+            "a photo of a woman with bangs",
+            "a photo of a woman with black hair and bangs",
+            "a photo of a woman with light-colored hair and exposed forehead",
+            "a photo of a woman with black hair covering her forehead"
+        ]
+    },
+    {
+        "attribute": "Male + Black_Hair + No Bang",
+        "positive_text": [
+            "a photo of a man with black hair and an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with blonde hair",
+            "a photo of a man with bangs",
+            "a photo of a man with black hair and bangs",
+            "a photo of a man with light-colored hair and exposed forehead",
+            "a photo of a man with black hair covering his forehead"
+        ]
+    },
+    {
+        "attribute": "Female + Smiling + No Bang",
+        "positive_text": [
+            "a photo of a smiling woman with an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with bangs",
+            "a photo of a serious person",
+            "a photo of a serious woman with exposed forehead",
+            "a photo of a smiling woman with bangs",
+            "a photo of a woman with slicked-back hair and neutral expression"
+        ]
+    },
+    {
+        "attribute": "Male + Smiling + No Bang",
+        "positive_text": [
+            "a photo of a smiling man with an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with bangs",
+            "a photo of a serious person",
+            "a photo of a serious man with exposed forehead",
+            "a photo of a smiling man with bangs",
+            "a photo of a man with slicked-back hair and neutral expression"
+        ]
+    },
+    {
+        "attribute": "Female + Bang + Blonde_Hair + Smiling",
+        "positive_text": [
+            "a photo of a smiling woman with blonde hair and bangs"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with dark hair",
+            "a photo of a woman with an exposed forehead",
+            "a photo of a serious person",
+            "a photo of a serious woman with blonde hair and bangs",
+            "a photo of a smiling woman with blonde hair and exposed forehead",
+            "a photo of a woman with blonde hair, bangs, and neutral expression",
+            "a photo of a smiling woman with black hair and bangs"
+        ]
+    },
+    {
+        "attribute": "Female + No Bang + Blonde_Hair + Smiling",
+        "positive_text": [
+            "a photo of a smiling woman with blonde hair and an exposed forehead"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with dark hair",
+            "a photo of a woman with bangs",
+            "a photo of a serious person",
+            "a photo of a serious woman with blonde hair and exposed forehead",
+            "a photo of a smiling woman with blonde hair and bangs",
+            "a photo of a woman with blonde hair, exposed forehead, and neutral expression",
+            "a photo of a smiling woman with black hair and exposed forehead"
+        ]
+    },
+    {
+        "attribute": "Female + Bang + Black_Hair + Smiling",
+        "positive_text": [
+            "a photo of a smiling woman with black hair and bangs"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with blonde hair",
+            "a photo of a woman with an exposed forehead",
+            "a photo of a serious person",
+            "a photo of a serious woman with black hair and bangs",
+            "a photo of a smiling woman with black hair and exposed forehead",
+            "a photo of a woman with black hair, bangs, and neutral expression",
+            "a photo of a smiling woman with light-colored hair and bangs"
+        ]
+    },
+    {
+        "attribute": "Female + Wavy Hair",
+        "positive_text": [
+            "a photo of a woman with wavy hair"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with straight hair",
+            "a photo of a man with wavy hair",
+            "a photo of a woman with tightly curled hair",
+            "a photo of a woman with sleek hair"
+        ]
+    },
+    {
+        "attribute": "Male + Bald",
+        "positive_text": [
+            "a photo of a bald man"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with hair",
+            "a photo of a bald woman",
+            "a photo of a man with a full head of hair",
+            "a photo of a man with thick hair"
+        ]
+    },
+    {
+        "attribute": "Male + Haired",
+        "positive_text": [
+            "a photo of a man with hair"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a bald man",
+            "a photo of a woman with hair",
+            "a photo of a man with a shaved head",
+            "a photo of a hairless man"
+        ]
+    },
+    {
+        "attribute": "Male + Black Hair",
+        "positive_text": [
+            "a photo of a man with black hair"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with blonde hair",
+            "a photo of a woman with black hair",
+            "a photo of a man with brown hair",
+            "a photo of a man with light-colored hair"
+        ]
+    },
+    {
+        "attribute": "Male + Blond Hair",
+        "positive_text": [
+            "a photo of a man with blonde hair"
+        ],
+        "negative_texts": [
+            "a photo of a woman",
+            "a photo of a man with black hair",
+            "a photo of a woman with blonde hair",
+            "a photo of a man with brown hair",
+            "a photo of a man with dark hair"
+        ]
+    },
+    {
+        "attribute": "Female + Bald",
+        "positive_text": [
+            "a photo of a bald woman"
+        ],
+        "negative_texts": [
+            "a photo of a man",
+            "a photo of a woman with hair",
+            "a photo of a bald man",
+            "a photo of a woman with a full head of hair",
+            "a photo of a woman with thick hair"
+        ]
+    }
+]

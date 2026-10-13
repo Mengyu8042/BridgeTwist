@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+data/
+results/
+*.pt
+*.pth
+*.pth.tar
+*.bin
+*.h5
+*.tmp
