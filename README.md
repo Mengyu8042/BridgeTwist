@@ -162,11 +162,11 @@ python src/run_full_image_experiments.py \
   --K 25 --N 800
 ```
 
-Metrics are saved to `results.json` in `results/celebahq_t2i/bridge_twist_<timestamp>/`, with per-prompt CLIP_L scores, a summary, and generation parameters. Add `--save_samples` to also save endpoint tensors and PNG grids.
+Metrics are saved to `results.json` in `results/celebahq_t2i/bridge_twist_<timestamp>/`. Add `--save_samples` to also save endpoint tensors and PNG grids.
 
 ## Licenses and provenance
 
-BridgeTwist code and the authors' SB checkpoints are released under the [MIT License](LICENSE). Bundled third-party components retain their upstream license terms and notices listed below.
+BridgeTwist code and SB checkpoints are released under the [MIT License](LICENSE). Third-party components retain their upstream license terms and notices listed below.
 
 ### Third-party components
 
@@ -181,10 +181,19 @@ BridgeTwist code and the authors' SB checkpoints are released under the [MIT Lic
 
 ### Datasets
 
-| Dataset | Website | Citation |
-| --- | --- | --- |
-| **MNIST** | [Dataset website](https://yann.lecun.org/exdb/mnist/) | Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-Based Learning Applied to Document Recognition. *Proceedings of the IEEE*, 86(11):2278–2324, 1998. |
-| **CIFAR-10** | [Dataset website](https://www.cs.toronto.edu/~kriz/cifar.html) | Alex Krizhevsky. Learning Multiple Layers of Features from Tiny Images. Technical report, University of Toronto, 2009. |
-| **CelebA-HQ** | [Official project and dataset instructions](https://github.com/tkarras/progressive_growing_of_gans#preparing-datasets-for-training) | Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. Progressive Growing of GANs for Improved Quality, Stability, and Variation. *ICLR*, 2018. |
+| Dataset | Source |
+| --- | --- |
+| MNIST | [Dataset website](https://yann.lecun.org/exdb/mnist/) |
+| CIFAR-10 | [Dataset website](https://www.cs.toronto.edu/~kriz/cifar.html) |
+| CelebA-HQ | [Official project and dataset instructions](https://github.com/tkarras/progressive_growing_of_gans#preparing-datasets-for-training) |
 
-The paper cites the methods, datasets, and pretrained models used in this work.
+## Citation
+
+```bibtex
+@inproceedings{li2026bridgetwist,
+  title     = {{BridgeTwist}: Twisting {Schr{\"o}dinger} Bridges for Training-Free Conditional Sampling},
+  author    = {Li, Mengyu and Qu, Qianqian and Liu, Jun S.},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026}
+}
+```
